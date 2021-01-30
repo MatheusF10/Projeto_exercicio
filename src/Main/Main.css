@@ -1,0 +1,586 @@
+#content{
+    display: flex;
+    margin: 0;
+    height: 400px;
+    background-image: url('../img/person-983960_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 40%;
+    background-size: 100%;
+    align-items: center;
+    justify-content: right;
+}
+#content #text{
+    float: left;
+    text-align: left;
+    color: white;
+    margin: 15vw;
+}
+#content #text h1{
+    font-size: 38pt;
+    margin-bottom: -15px;
+}
+#content #text button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 30px;
+    border-style: none;
+    background-color: transparent;
+    border-radius: 5px;
+    border: solid white 2px;
+    color: white;
+    font-size: 10pt;
+    font-weight: 600;
+}
+.explain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+}
+.explain .text{
+    text-align: left;
+    margin-left: 14vw;
+    color: #333333;
+    
+}
+.explain .text h5{
+    margin-bottom: -20px;
+    
+}
+.explain .cv-19{
+    text-align: justify;
+    margin-right: 14vw;
+    color: #333333
+}
+.card{
+    display: flex;
+    background-color: #333333;
+    color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 3px;
+    padding: 13px;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+.card .number h1{
+    float: left;
+    margin-left: 10px;
+}
+
+.card-2 .number h1{
+    float: left;
+    margin-left: 10px;
+}
+.card-3 .number h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-left: 10px;
+}
+#more-content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#more-content .mc-1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+#more-content .mc-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ #more-content .mc-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+#more-content .mc-1 p{
+    padding: 15px;
+    text-align: justify;
+    
+    font-size: 10pt;
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: #333333;
+ }
+ #more-content .mc-2 p{
+    padding: 15px;
+    text-align: justify;
+    margin-bottom: 25px;
+    font-size: 10pt;
+    font-weight: 500;
+    color: #333333;
+ }
+ #more-content .mc-3 p{
+    padding: 15px;
+    text-align: justify;
+    font-size: 10pt;
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: #333333;
+ }
+
+.card-2{
+    display: flex;
+    background-color: #333333;
+    color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 3px;
+    flex-direction: column;
+    padding: 13px;
+    overflow: hidden;
+    
+    
+}
+.card-3{
+    display: flex;
+    background-color: #333333;
+    color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 3px;
+    flex-direction: column;
+    padding: 13px;
+    overflow: hidden;
+    
+}
+.card-3 .icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 25px;
+    margin-right: -55px;
+    margin-top: -15px;
+    
+}
+.card-2 .icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: -20px;
+    margin-top: 30px;
+    
+}
+.card .icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: -55px;
+    margin-top: -10px;
+
+}
+
+#content-2{
+    display: flex;
+    height: 400px;
+    background-image: url('../img/adventure-1867589_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 40%;
+    background-size: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    
+   
+    
+    
+    
+    
+    
+}
+#content-2 .explain-2 {
+   margin-right: 15vw;
+   text-align: right;
+   color: white;
+    
+}
+#content-2 .explain-2 h1{
+    font-size: 30pt;
+}
+#content-2 .explain-2 button{
+    border-style: none;
+    background-color: white;
+    color: black;
+    font-size: 10pt;
+    font-weight: 600;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.products{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+}
+.products .content-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 320px;
+    background-image: url('../img/tend.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 15px;
+    border-radius: 5px;
+    
+    
+    
+}
+.products .content-product-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 320px;
+    background-image: url('../img/mug.jpg');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position: center;
+    margin: 15px;
+    border-radius: 5px;
+}
+.products .content-product-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 320px;
+    background-image: url('../img/bag.jpg');
+    background-position: center;
+    justify-content: flex-end;
+    align-items: initial;
+    background-repeat: no-repeat;
+    margin: 15px;
+    border-radius: 5px;
+    flex-direction: row;
+    
+}
+.products .content-product-3 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D85050;
+    color: white;
+    width: 50px;
+    height: 20px;
+    margin: 15px;
+    border-radius: 3px;
+    font-size: 8pt;
+    
+}
+.product-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #333333;
+    font-weight: 400;
+}
+.product-price h3{
+    font-weight: 400;
+}
+.product-price .style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.product-price .style .line-through{
+    color: #D85050;
+    text-decoration: line-through;
+    margin-left: 5px;
+    font-size: 10pt;
+}
+.product-price .style p{
+    font-size: 10pt;
+    line-height: 0;
+    margin-top: -5px;
+    font-weight: 700;
+}
+.product-price button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D85050;
+    width: 100px;
+    height: 25px;
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+    font-weight: 700;
+}
+.button-place{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px;
+}
+.button-place button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    color: white;
+    border-style: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 10pt;
+    font-weight: 600;
+}
+.use-content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.card-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    width: 900px;
+    height: 500px;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 15vw;
+}
+.card-content .text-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    color: white;
+    
+
+}
+.use-content .image{
+    background-image: url('../img/office.jpg');
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 60%;
+    margin-top: 60px;
+    margin-left: 15vw;
+    border-radius: 3px;
+}
+@media screen and (max-width: 800px) and (min-width: 300px){
+    #content{
+        display: flex;
+        background-image: url('../img/person-983960_1920.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+        background-size: 100%;
+        align-items: center;
+        margin: 0;
+        
+    }
+    #content #text{
+        float: left;
+        text-align: left;
+        color: white;
+        margin: 0;
+        margin-left: 15vw;
+        margin-bottom: 25px;
+    }
+    #content #text h1{
+        font-size: 20pt;
+    }
+    #content #text p{
+        font-size: 10pt;
+    }
+    #more-content{
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .explain{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+        flex-direction: column;
+    }
+    .explain .text{
+        text-align: left;
+        margin-right: 14vw;
+        color: #333333;
+        font-size: 10pt;
+        
+    }
+    .explain .cv-19{
+        text-align: justify;
+        color: #333333;
+        margin-left: 14vw;
+    }
+    .card{
+        display: flex;
+        background-color: #333333;
+        color: white;
+        width: 250px;
+        height: 250px;
+        border-radius: 3px;
+        padding: 13px;
+        flex-direction: column;
+        overflow: hidden;
+        
+    }
+    .card-2{
+        display: flex;
+        background-color: #333333;
+        color: white;
+        width: 250px;
+        height: 250px;
+        border-radius: 3px;
+        padding: 13px;
+        flex-direction: column;
+        overflow: hidden;
+       
+        
+        
+    }
+    .card-3{
+        display: flex;
+        background-color: #333333;
+        color: white;
+        width: 250px;
+        height: 250px;
+        border-radius: 3px;
+        margin: 0;
+        flex-direction: column;
+        padding: 13px;
+        overflow: hidden;
+        
+    }
+    #more-content .mc-1 p{
+        padding: 15px;
+        text-align: justify;
+        margin: 0;
+        font-size: 10pt;
+        margin-bottom: 25px;
+        font-weight: 500;
+        color: #333333;
+     }
+     #more-content .mc-2 p{
+        padding: 15px;
+        text-align: justify;
+        margin-bottom: 25px;
+        font-size: 10pt;
+        font-weight: 500;
+        color: #333333;
+     }
+     #more-content .mc-3 p{
+        padding: 15px;
+        text-align: justify;
+        margin: 0;
+        font-size: 10pt;
+        margin-bottom: 25px;
+        font-weight: 500;
+        color: #333333;
+     }
+     #content-2{
+        display: flex;
+        height: 100%;
+        background-image: url('../img/adventure-1867589_1920.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 40%;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0;
+     }
+     
+    #content-2 .explain-2 {
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        flex-direction: column;
+        margin: 0;
+        color: white;
+        margin-bottom: 25px;
+        
+         
+     }
+     #content-2 .explain-2 h1{
+         font-size: 15pt;
+     }
+     #content-2 .explain-2 p{
+        font-size: 10pt;
+    }
+     #content-2 .explain-2 button{
+         border-style: none;
+         background-color: white;
+         color: black;
+         font-size: 10pt;
+         font-weight: 600;
+         width: 200px;
+         height: 30px;
+         border-radius: 5px;
+         margin-left: 15vw;
+     
+     }
+     .products{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+     }
+     .products .product-price{
+         padding: 10px;
+     }
+     .use-content{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+
+         
+     }
+     .use-content .image{
+        display: none;
+    }
+    .card-content{
+        margin: 0;
+    }
+    .card-content .text-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        color: white;
+        margin: 0;
+        padding: 25px;
+        font-size: 8pt;
+        
+    
+    }
+}

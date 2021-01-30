@@ -1,0 +1,183 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D85050;
+    height: 50px;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    
+    
+    
+}
+.itens-responsive{
+    display: none;
+}
+#checkbox-menu{
+    display: none;
+    
+}
+#header .responsive-menu{
+    display: none;
+}
+#header h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 8pt;
+    color: white;
+    margin-left: 15vw;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+#header a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+#header a h1:hover{
+    font-size: 10pt;
+    transition: 0.2s;
+}
+#itens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-right:15vw;
+    
+}
+#itens li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+#itens li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 11pt;
+    color: white;
+}
+#itens li a:hover{
+    color: black;
+    transition: 0.2s;
+}
+#itens button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    border-style: none;
+    border-radius: 5px;
+
+}
+#itens button:hover{
+    background-color: #333333;
+    transition: 0.2s;
+}
+@media screen and (max-width: 800px) and (min-width:300px){
+     #header #itens{
+         display: none;
+     }
+     #checkbox-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+    }
+    #checkbox-menu{
+        position: absolute;
+        opacity: 0;
+    }
+    label{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 18px;
+        width: 50px;
+        margin-right: 15vw;
+        
+        
+        flex-direction: column;
+    }
+    label span{
+        display: flex;
+        height: 2px;
+        width: 30px;
+        background-color: white;
+        transition: 0.25s ease-in-out;
+    }
+    .itens-responsive{
+        display: flex;
+        height: 100vh;
+        width: 25vw;
+        align-items: flex-start;
+        flex-direction: column;
+        background-color: #D85050;
+        list-style: none;
+        margin: 0;
+        position: fixed;
+        overflow: hidden;
+        
+        
+       
+        
+        
+    }
+    .itens-responsive button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 30px;
+        background-color: black;
+        border-style: none;
+        border-radius: 5px;
+    }
+    #checkbox-menu:hover + label span:nth-child(2){
+        margin-left: 5px;
+    }
+    #checkbox-menu:checked + label span:nth-child(1){
+        transform: rotate(45deg);
+        margin-top: 10px;
+        
+        
+        
+       
+    }
+    #checkbox-menu:checked + label span:nth-child(2){
+        display: none;
+    }
+    #checkbox-menu:checked + label span:nth-child(3){
+        transform: rotate(135deg);
+        margin-bottom: 7.5px;
+        
+    }
+    .itens-responsive li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .itens-responsive li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15pt;
+    }
+    .itens-responsive li a:hover{
+        color: black;
+        transition: 0.2s;
+    }
+}
